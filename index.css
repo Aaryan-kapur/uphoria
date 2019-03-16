@@ -136,12 +136,12 @@ main .capt .button p {
 }
 @media only screen and (max-width: 1000px) {
   section.new .container .main{
-    margin-top:0vh;
+    margin-top:1vh;
   }
   section.new .container main .row .thumbnail{
     background-color:black;
     border-color:black; 
-    height: 25%; 
+    height: 22%; 
     width:100%;
   }
   section.new .comntainer main .row .thumbnail h1{
@@ -149,8 +149,8 @@ main .capt .button p {
     
   }
   section.new main .row .thumbnail img{
-    height:100%;
-    width:30%;
+    height:70%;
+    width:50%;
   }
 }
 @media only screen and (max-width: 1300px) {
