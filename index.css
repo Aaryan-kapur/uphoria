@@ -136,7 +136,7 @@ main .capt .button p {
 }
 @media only screen and (max-width: 1000px) {
   section.new .container .main{
-    margin-top:1vh;
+    margin-top:0vh;
   }
   section.new .container main .row .thumbnail{
     background-color:black;
