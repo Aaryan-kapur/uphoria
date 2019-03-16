@@ -1,0 +1,200 @@
+section.about {
+    .container {
+        main {
+            position: relative;
+            margin-top: 10vh;
+            height: 75.1vh;
+            @media only screen and (max-width: 800px) {
+                margin-top: 12.5vh;
+                height: 71.6vh;
+            }
+            padding: 4vh 0;
+            .squares {
+                position: absolute;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                // width: 100%;
+                margin-top: 10vh;
+                // @media only screen and (max-width: 1000px){
+                    // flex-wrap: nowrap;
+                    // width: 100%;
+                // }
+                @media only screen and (max-width: 800px) {
+                    width: 100%;
+                    margin-top: 10vh;
+                }
+                @media only screen and (max-height: 600px) {
+                    width: 100%;
+                    margin-top: 0vh;
+                } // @media only screen and (max-width:300px){
+                //     margin-top: 5vh;
+                // }
+            }
+            .square {
+                height: 19vh;
+                width: 19vh;
+                transition-duration: 0.5s;
+                @media only screen and (max-width: 1300px) {
+                    height:7.5vw;
+                    width: 15vw;
+                }
+                @media only screen and (max-width: 600px) {
+                    width: 35vw;
+                }
+                cursor: pointer;
+                margin-right: 2vw;
+                margin-bottom: 1.5vh;
+                border: 1px solid rgb(255, 255, 255);
+                @media only screen and (max-width: 800px) {
+                    margin-right: 2vw;
+                    margin-bottom: 1.5vh;
+                }
+                p {
+                    position: relative;
+                    text-align: center;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-size: 2.5vh;
+                    font-weight: 900;
+                    @media only screen and (max-width: 800px) {
+                        font-size: 90%;
+                        padding: 1vh 0vh;
+                    }
+                }
+            }
+            .square:hover {
+                transition-duration: 0.5s;
+                transform: scale(1.1);
+            }
+            .isac {
+                background: url("../../assests/isac.jpg");
+                background-size: cover;
+                color: black;
+            }
+            .ansh {
+                background: url("../../assests/ansh.jpg");
+                background-size: cover;
+            }
+            .cerebrum {
+                background: url("../../assests/cerebrum.jpg");
+                background-size: cover;
+                color: black;
+            }
+            .verve {
+                background: url("../../assests/verve.jpg");
+                background-size: cover;
+            }
+            .karobaar {
+                background: url("../../assests/karobaar.jpg");
+                background-size: cover;
+                color: black;
+            }
+            .nomads {
+                background: url("../../assests/nomads.jpg");
+                background-size: cover;
+            }
+            .advaita {
+                background: url("../../assests/adviata.jpg");
+                background-size: cover;
+            }
+            .silhouette {
+                background: url("../../assests/sillohette.jpg");
+                background-size: cover;
+            }
+            .spicmacay {
+                background: url("../../assests/spicmacay.jpg");
+                background-size: 200%;
+                color: black;
+                // background-position-x: 100px;
+            }
+            .robotics {
+                background: url("../../assests/robotics.jpg");
+                background-size: cover;
+                color: black;
+            }
+            .pulse {
+                background: url("../../assests/pulse.jpg");
+                background-size: cover;
+                color: black;
+            }
+            .alexis {
+                background: url("../../assests/alexis.jpg");
+                background-size: cover;
+                color: black;
+            }
+            .hiddenjs {
+                visibility: hidden;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                background-color: black;
+                display: flex;
+                height: 65vh;
+                @media only screen and (max-width: 800px) {
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                aside.left {
+                    .wrapper {
+                        border: 2px solid white;
+                        width: 50%;
+                        position: relative;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        margin: 0 auto;
+                        padding: 2vh 1vw;
+                        @media only screen and (max-width: 800px) {
+                            width:80%;
+                            font-size: 0.88em;
+                        }
+                        p {
+                        }
+                    }
+                    color: white;
+                    flex:6;
+                    padding: 4vh 0;
+                    @media only screen and (max-width: 800px) {
+                        font-size: 75%;
+                    }
+                    .goback {
+                        position: absolute;
+                        font-size: 2vh;
+                        cursor: pointer;
+                    }
+                }
+                aside.right {
+                    flex: 2;
+                    .wrapper {
+                        position: relative;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        @media only screen and (max-width: 800px) {
+                            display: flex;
+                        }
+                    }
+                    .event {
+                        background-color: black;
+                        margin-right: 10px;
+                        border: 1px solid white;
+                        height: 4vh;
+                        cursor: pointer;
+                        font-size: 90%;
+                        padding: 5px; // flex-direction: row;
+                        margin-bottom: 2vh;
+                        p {
+                            position: relative;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,228 @@
+section.about .container main {
+  position: relative;
+  margin-top: 10vh;
+  height: 75.1vh;
+  padding: 4vh 0;
+}
+@media only screen and (max-width: 800px) {
+  section.about .container main {
+    margin-top: 12.5vh;
+    height: 71.6vh;
+  }
+}
+section.about .container main .squares {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+}
+@media only screen and (max-width: 800px) {
+  section.about .container main .squares {
+    width: 100%;
+    margin-top: 10vh;
+  }
+}
+@media only screen and (max-height: 600px) {
+  section.about .container main .squares {
+    width: 100%;
+    margin-top: 0vh;
+  }
+}
+section.about .container main .square {
+  height: 19vh;
+  width: 19vh;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  margin-right: 2vw;
+  margin-bottom: 1.5vh;
+  border: 1px solid white;
+}
+@media only screen and (max-width: 1300px) {
+  section.about .container main .square {
+    height: 7.5vw;
+    width: 15vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  section.about .container main .square {
+    width: 35vw;
+  }
+}
+@media only screen and (max-width: 800px) {
+  section.about .container main .square {
+    margin-right: 2vw;
+    margin-bottom: 1.5vh;
+  }
+}
+section.about .container main .square p {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.3em;
+  font-weight: 900;
+}
+@media only screen and (max-width: 800px) {
+  section.about .container main .square p {
+    font-size: 90%;
+    padding: 1vh 0vh;
+  }
+}
+section.about .container main .square:hover {
+  transition-duration: 0.5s;
+  transform: scale(1.1);
+}
+section.about .container main .isac {
+  background: url("../../assests/isac.jpg");
+  background-size: cover;
+  color: black;
+}
+section.about .container main .ansh {
+  background: url("../../assests/ansh.jpg");
+  background-size: cover;
+}
+section.about .container main .cerebrum {
+  background: url("../../assests/cerebrum.jpg");
+  background-size: cover;
+  color: black;
+}
+section.about .container main .verve {
+  background: url("../../assests/verve.jpg");
+  background-size: cover;
+}
+section.about .container main .karobaar {
+  background: url("../../assests/karobaar.jpg");
+  background-size: cover;
+  color: black;
+}
+section.about .container main .nomads {
+  background: url("../../assests/nomads.jpg");
+  background-size: cover;
+}
+section.about .container main .advaita {
+  background: url("../../assests/adviata.jpg");
+  background-size: cover;
+}
+section.about .container main .silhouette {
+  background: url("../../assests/sillohette.jpg");
+  background-size: cover;
+}
+section.about .container main .spicmacay {
+  background: url("../../assests/spicmacay.jpg");
+  background-size: 200%;
+  color: black;
+}
+section.about .container main .robotics {
+  background: url("../../assests/robotics.jpg");
+  background-size: cover;
+  color: black;
+}
+section.about .container main .pulse {
+  background: url("../../assests/pulse.jpg");
+  background-size: cover;
+  color: black;
+}
+section.about .container main .alexis {
+  background: url("../../assests/alexis.jpg");
+  background-size: cover;
+  color: black;
+}
+section.about .container main .hiddenjs {
+  visibility: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  height: 65vh;
+}
+@media only screen and (max-width: 800px) {
+  section.about .container main .hiddenjs {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+section.about .container main .hiddenjs aside.left {
+  color: white;
+  flex: 6;
+  padding: 4vh 0;
+}
+section.about .container main .hiddenjs aside.left .wrapper {
+  border: 2px solid white;
+  width: 50%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  padding: 2vh 1vw;
+}
+@media only screen and (max-width: 800px) {
+  section.about .container main .hiddenjs aside.left .wrapper {
+    width: 80%;
+    font-size: 0.88em;
+  }
+}
+@media only screen and (max-width: 800px) {
+  section.about .container main .hiddenjs aside.left {
+    font-size: 75%;
+  }
+}
+section.about .container main .hiddenjs aside.left .goback {
+  position: absolute;
+  font-size: 2vh;
+  cursor: pointer;
+}
+section.about .container main .hiddenjs aside.right {
+  flex: 2;
+}
+section.about .container main .hiddenjs aside.right .wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media only screen and (max-width: 800px) {
+  section.about .container main .hiddenjs aside.right .wrapper {
+    display: flex;
+  }
+}
+section.about .container main .hiddenjs aside.right .event {
+  background-color: black;
+  margin-right: 10px;
+  border: 1px solid white;
+  height: 4vh;
+  cursor: pointer;
+  font-size: 90%;
+  padding: 5px;
+  margin-bottom: 2vh;
+}
+section.about .container main .hiddenjs aside.right .event p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  section.about main .thumbnail{
+    height:25%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  section.about  main{
+   align-content: center;
+  }
+}@media only screen and (max-width: 2600px) {
+  section.about  main row{
+   margin-top:50vh;
+  }
+  section.about main .thumbnail {
+    height:60%;
+  }
+  section.about main .thumbnail img{
+    height: 32cover;
+  }
+}

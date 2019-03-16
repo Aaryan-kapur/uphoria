@@ -1,0 +1,82 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-hide.show {
+  background: rgba(88, 88, 88, 0.2);
+}
+
+.menu-hide nav ul li:hover {
+  background: unset;
+}
+body {
+  background-color: black;
+}
+
+.quote .menu-item-3 p {
+  cursor: pointer;
+  display: inline-block;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.quote .menu-item-3 p a {
+  color: black;
+}
+.btn1 {
+  color: black;
+  background: orange;
+  border-radius: 20px;
+  height: 50px;
+  width: 200px;
+  border-color: transparent;
+}
+span {
+  color: white;
+}
+.number {
+  color: white;
+}
+.top {
+  color: white;
+}
+p {
+  font-weight: 1000;
+}
+* {
+  /* border: 1px solid blue; */
+}
+main .heading {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .heading p.last {
+  text-align: center;
+  font-size: 6em;
+  color: white;
+}
+
+p.power {
+  font-size: 2em;
+  text-align: center;
+}
+main .capt {
+    margin: 10% 0;
+  width: 100%;
+}
+main .capt .button {
+    cursor: pointer;
+    display: inline-block;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+main .capt .button p {
+  margin: 0;
+}
