@@ -92,7 +92,7 @@ main .capt .button p {
     font-size:4vh;
     margin-top:vh;
   }
-  section.new .container main .row .thumbnail{
+  section.new .container main div.row div.thumbnail{
     background-color:black;
     border-color:black; 
     height: 30%; 
@@ -104,7 +104,7 @@ main .capt .button p {
   }
   section.new .container main .row .thumbnail img{
     height:100%;
-    width:60%;
+    width:80%;
   }
 }
 @media only screen and (max-width: 800px) {
