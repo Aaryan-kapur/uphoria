@@ -7,7 +7,7 @@
     <title>Uphoria 2k19</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="app/css/main.css" />
-    
+
     <link rel="stylesheet" type="text/css" media="screen" href="base/css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -18,472 +18,485 @@
 </head>
 
 <body onload="hideAll()" style="background-color:black; font-family: 'Montserrat', sans-serif;">
-    <section class="top scroller">
-        <div class="container">
-            <nav>
-                <div class="menu menu-left">
-                    <div class="menu-item-1 menu-item">
-                        <p onclick="$.scrollify.move('#about')"><a href="#about">Events</a></p>
+    <div id="fullpage">
+        <section class="section top scroller">
+            <div class="container">
+                <nav>
+                    <div class="menu menu-left">
+                        <div class="menu-item-1 menu-item">
+                            <p onclick="$.scrollify.move('#about')"><a href="#about">Events</a></p>
+                        </div>
+                        <div class="menu-item-2 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-3 menu-item">
+                            <p> </p>
+                        </div>
                     </div>
-                    <div class="menu-item-2 menu-item">
-                        <p> </p>
+                    <div class="logo">
+                        <p>
+                            <span class="black">Uphoria</span>
+                            <span class="narrow">2k19</span>
+                        </p>
                     </div>
-                    <div class="menu-item-3 menu-item">
-                        <p> </p>
+                    <div class="menu menu-right">
+                        <div class="menu-item-1 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-2 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-3 menu-item">
+                            <p><a href="register.html">Register</a></p>
+                        </div>
                     </div>
-                </div>
-                <div class="logo">
-                    <p>
-                        <span class="black">Uphoria</span>
-                        <span class="narrow">2k19</span>
-                    </p>
-                </div>
-                <div class="menu menu-right">
-                    <div class="menu-item-1 menu-item">
-                        <p> </p>
+                    <div class="menu-tab">
+                        <div id="one"></div>
+                        <div id="two"></div>
+                        <div id="three"></div>
                     </div>
-                    <div class="menu-item-2 menu-item">
-                        <p> </p>
-                    </div>
-                    <div class="menu-item-3 menu-item">
-                        <p><a href="register.html">Register</a></p>
-                    </div>
-                </div>
-                <div class="menu-tab">
-                    <div id="one"></div>
-                    <div id="two"></div>
-                    <div id="three"></div>
-                </div>
-                <div class="menu-hide">
-                    <nav>
-                        <ul>
-                            <!-- <li><a href="#">space</a></li> -->
-                            <!-- <li><a href="#1">Home</a></li>
+                    <div class="menu-hide">
+                        <nav>
+                            <ul>
+                                <!-- <li><a href="#">space</a></li> -->
+                                <!-- <li><a href="#1">Home</a></li>
                             <li><a href="#about">Events</a></li>
                             <li onclick="window.location='register.html'"><a href="register.html">Register</a></li> -->
-                            <!-- <li><a href="#4">Our Team</a></li> -->
-                        </ul>
-                    </nav>
-                </div>
-            </nav>
-            <main>
-                <div class="heading"  style="margin-top:20%;">
-                    <p>
-                        <span class="black">UPHORIA</span>
-                        <span class="narrow">2K19</span>
+                                <!-- <li><a href="#4">Our Team</a></li> -->
+                            </ul>
+                        </nav>
+                    </div>
+                </nav>
+                <main>
+                    <div class="heading" style="margin-top:20%;">
+                        <p>
+                            <span class="black">UPHORIA</span>
+                            <span class="narrow">2K19</span>
+                        </p>
+                    </div>
+                </main>
+                <div class="quote">
+                    <p class="outer">Annual fest of Bennett University</p>
+                    <p class="top">
+                        “The cosmos is within us. We are made of star-stuff. We are a way for the universe to know
+                        itself.”
                     </p>
+                    <p class="bottom">-Carl Sagan</p>
+                    <p></p>
+                    <br>
+                    <div onclick="window.location='register.html'" class="menu-item-3 menu-item">
+                        <p class="top"><a href="register.html">Register</a></p>
+                    </div>
                 </div>
-            </main>
-            <div class="quote">
-                <p class="outer">Annual fest of Bennett University</p>
-                <p class="top">
-                    “The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself.”
-                </p>
-                <p class="bottom">-Carl Sagan</p>
-                <p></p>
-                <br>
-                <div onclick="window.location='register.html'" class="menu-item-3 menu-item">
-                    <p class="top"><a href="register.html">Register</a></p>
-                </div>
-            </div>
-            <!-- <video id="blob" class="blob" no-controls autoplay muted loop>
+                <!-- <video id="blob" class="blob" no-controls autoplay muted loop>
                 <source src="./assests/hero.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video> -->
-            <div class="blob" id="blob"></div>
-            <div class="number">
-                01
-            </div>
-            <footer>
-                <span class="black"> POWERED BY</span>: <span class="narrow"> perplexed.tech</span>
-               </footer>
-        </div>
-    </section>
-    <section class="about scroller" id="about">
-        <div class="container">
-            <nav>
-                <div class="menu menu-left">
-                    <div class="menu-item-1 menu-item">
-                        <p><a href="#about"><a href="#about">Events</a></p>
-                    </div>
-                    <div class="menu-item-2 menu-item">
-                        <p> </p>
-                    </div>
-                    <div class="menu-item-3 menu-item">
-                        <p> </p>
-                    </div>
+                <div class="blob" id="blob"></div>
+                <div class="number">
+                    01
                 </div>
-                <div class="logo">
-                    <p>
-                        <span class="black">Uphoria</span>
-                        <span class="narrow">2k19</span>
-                    </p>
-                </div>
-                <div class="menu menu-right">
-                    <div class="menu-item-1 menu-item">
-                        <p> </p>
-                    </div>
-                    <div class="menu-item-2 menu-item">
-                        <p> </p>
-                    </div>
-                    <div class="menu-item-3 menu-item">
-                        <p><a href="register.html">Register</a></p>
-                    </div>
-                </div>
-                <div class="menu-tab">
-                    <div id="one"></div>
-                    <div id="two"></div>
-                    <div id="three"></div>
-                </div>
-                <div class="menu-hide">
-                    <nav>
-                        <ul>
-                            <!-- <li><a href="#">space</a></li>
-                            <li><a href="#1">Home</a></li>
-                            <li><a href="#about">Events</a></li>
-                            <li><a href="register.html">Register</a></li> -->
-                            <!-- <li><a href="#4">Our Team</a></li> -->
-                        </ul>
-                    </nav>
-                </div>
-            </nav>
-
-            <main>
-                <div class="squares" id="squares">
-                    <div class="square isac" onlick="run(isac)">
-                        <p >
-                            ISAC
-                        </p>
-                    </div>
-                    <div class="square ansh" onlick="run(ansh)">
-                        <p style="color:white;"> ANSH
-                        </p>
-                    </div>
-                    <div class="square cerebrum" onlick="run(cerebrum)">
-                        <p style="color:black;"> CEREBRUM
-                        </p>
-                    </div>
-                    <div class="square verve" onlick="run(verve)">
-                        <p style="color:white;"> VERVE
-                        </p>
-                    </div>
-                    <div class="square karobaar" onlick="run(karobaar)">
-                        <p style="color:black;">
-                            KAROBAAR
-                        </p>
-                    </div>
-                    <div class="square nomads" onlick="run(nomads)">
-                        <p style="color:black;"> NOMADS
-                        </p>
-                    </div>
-                    <div class="square advaita" onlick="run(adviata)">
-                        <p style="color:black;"> ADVAITA
-                        </p>
-                    </div>
-                    <div class="square silhouette" onlick="run(sillohette)">
-                        <p style="color:black;"> SILHOUETTE
-                        </p>
-                    </div>
-                    <div class="square spicmacay" onlick="run(spicmacay)">
-                        <p style="color:black;"> SPIC MACAY
-                        </p>
-                    </div>
-                    <div class="square robotics" onlick="run(robotics)">
-                        <p>
-                            ROBOTICS
-                        </p>
-                    </div>
-                    <div class="square pulse" onlick="run(pulse)">
-                        <p>
-                            PULSE
-                        </p>
-                    </div>
-                    <div class="square alexis" onlick="run(alexis)">
-                        <p>
-                            ALEXIS
-                        </p>
-                    </div>
-                </div>
-                <div class="hiddenjs" id="">
-                    <aside class="left">
-                        <div class="goback" onclick="hideAll()">&larr;</div>
-                        <div class="wrapper">
-                        </div>
-                    </aside>
-                    <aside class="right">
-                        <div class="wrapper">
-                            <div class="event isac-event event-1 active" id="event-1">
-                                <p>ONE</p>
-                            </div>
-                            <div class="event isac-event event-2" id="event-2">
-                                <p>TWO</p>
-                            </div>
-                            <div class="event isac-event event-3" id="event-3">
-                                <p>THREE</p>
-                            </div>
-                    </aside>
-                </div>
-            </main>
-            <div class="number">
-                02
-            </div>
-            <footer>
-                <p style="color:white;">
+                <footer>
                     <span class="black"> POWERED BY</span>: <span class="narrow"> perplexed.tech</span>
-
-                </p>
-            </footer>
-        </div>
-    </section>
-    <section class="new scroller" id="navigator">
-        <div class="container">
-            <nav>
-                <div class="menu menu-left">
-                    <div class="menu-item-1 menu-item">
-                        <p><a href="#about"><a href="#about">Events</a></p>
+                </footer>
+            </div>
+        </section>
+        <section class="section about scroller" id="about">
+            <div class="container">
+                <nav>
+                    <div class="menu menu-left">
+                        <div class="menu-item-1 menu-item">
+                            <p><a href="#about"><a href="#about">Events</a></p>
+                        </div>
+                        <div class="menu-item-2 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-3 menu-item">
+                            <p> </p>
+                        </div>
                     </div>
-                    <div class="menu-item-2 menu-item">
-                        <p> </p>
+                    <div class="logo">
+                        <p>
+                            <span class="black">Uphoria</span>
+                            <span class="narrow">2k19</span>
+                        </p>
                     </div>
-                    <div class="menu-item-3 menu-item">
-                        <p> </p>
+                    <div class="menu menu-right">
+                        <div class="menu-item-1 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-2 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-3 menu-item">
+                            <p><a href="register.html">Register</a></p>
+                        </div>
                     </div>
-                </div>
-                <div class="logo">
-                    <p>
-                        <span class="black">Uphoria</span>
-                        <span class="narrow">2k19</span>
-                    </p>
-                </div>
-                <div class="menu menu-right">
-                    <div class="menu-item-1 menu-item">
-                        <p> </p>
+                    <div class="menu-tab">
+                        <div id="one"></div>
+                        <div id="two"></div>
+                        <div id="three"></div>
                     </div>
-                    <div class="menu-item-2 menu-item">
-                        <p> </p>
-                    </div>
-                    <div class="menu-item-3 menu-item">
-                        <p><a href="register.html">Register</a></p>
-                    </div>
-                </div>
-                <div class="menu-tab">
-                    <div id="one"></div>
-                    <div id="two"></div>
-                    <div id="three"></div>
-                </div>
-               
-                <div class="menu-hide">
-                    <nav>
-                        <ul>
-                            <!-- <li><a href="#">space</a></li>
+                    <div class="menu-hide">
+                        <nav>
+                            <ul>
+                                <!-- <li><a href="#">space</a></li>
                             <li><a href="#1">Home</a></li>
                             <li><a href="#about">Events</a></li>
                             <li><a href="register.html">Register</a></li> -->
-                            <!-- <li><a href="#4">Our Team</a></li> -->
-                        </ul>
-                    </nav>
-                </div>
-            </nav>
+                                <!-- <li><a href="#4">Our Team</a></li> -->
+                            </ul>
+                        </nav>
+                    </div>
+                </nav>
 
-            <main>
-                <div class="row" style="align-content:center;">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <a href="index1.html">
-                        <div class="thumbnail" >
-                            <img src="assests/zaeden1.jpg">
-                            <div class="carousel-caption">
-                                <h1>Artist Spotlight</h1>
-                              </div>
-                           
+                <main>
+                    <div class="squares" id="squares">
+                        <div class="square isac" onlick="run(isac)">
+                            <p>
+                                ISAC
+                            </p>
+                        </div>
+                        <div class="square ansh" onlick="run(ansh)">
+                            <p style="color:white;"> ANSH
+                            </p>
+                        </div>
+                        <div class="square cerebrum" onlick="run(cerebrum)">
+                            <p style="color:black;"> CEREBRUM
+                            </p>
+                        </div>
+                        <div class="square verve" onlick="run(verve)">
+                            <p style="color:white;"> VERVE
+                            </p>
+                        </div>
+                        <div class="square karobaar" onlick="run(karobaar)">
+                            <p style="color:black;">
+                                KAROBAAR
+                            </p>
+                        </div>
+                        <div class="square nomads" onlick="run(nomads)">
+                            <p style="color:black;"> NOMADS
+                            </p>
+                        </div>
+                        <div class="square advaita" onlick="run(adviata)">
+                            <p style="color:black;"> ADVAITA
+                            </p>
+                        </div>
+                        <div class="square silhouette" onlick="run(sillohette)">
+                            <p style="color:black;"> SILHOUETTE
+                            </p>
+                        </div>
+                        <div class="square spicmacay" onlick="run(spicmacay)">
+                            <p style="color:black;"> SPIC MACAY
+                            </p>
+                        </div>
+                        <div class="square robotics" onlick="run(robotics)">
+                            <p>
+                                ROBOTICS
+                            </p>
+                        </div>
+                        <div class="square pulse" onlick="run(pulse)">
+                            <p>
+                                PULSE
+                            </p>
+                        </div>
+                        <div class="square alexis" onlick="run(alexis)">
+                            <p>
+                                ALEXIS
+                            </p>
                         </div>
                     </div>
-                </a>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <a href="gallery.html">
-                        <div class="thumbnail">
-                            <img src="images/olly.jpg">
-                            
-                            
-                                
-                                <div class="carousel-caption">
-                                    <h1>Gallery</h1>
-                                  
+                    <div class="hiddenjs" id="">
+                        <aside class="left">
+                            <div class="goback" onclick="hideAll()">&larr;</div>
+                            <div class="wrapper">
                             </div>
+                        </aside>
+                        <aside class="right">
+                            <div class="wrapper">
+                                <div class="event isac-event event-1 active" id="event-1">
+                                    <p>ONE</p>
+                                </div>
+                                <div class="event isac-event event-2" id="event-2">
+                                    <p>TWO</p>
+                                </div>
+                                <div class="event isac-event event-3" id="event-3">
+                                    <p>THREE</p>
+                                </div>
+                        </aside>
+                    </div>
+                </main>
+                <div class="number">
+                    02
+                </div>
+                <footer>
+                    <p style="color:white;">
+                        <span class="black"> POWERED BY</span>: <span class="narrow"> perplexed.tech</span>
+
+                    </p>
+                </footer>
+            </div>
+        </section>
+        <section class="section new scroller" id="navigator">
+            <div class="container">
+                <nav>
+                    <div class="menu menu-left">
+                        <div class="menu-item-1 menu-item">
+                            <p><a href="#about"><a href="#about">Events</a></p>
+                        </div>
+                        <div class="menu-item-2 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-3 menu-item">
+                            <p> </p>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <p>
+                            <span class="black">Uphoria</span>
+                            <span class="narrow">2k19</span>
+                        </p>
+                    </div>
+                    <div class="menu menu-right">
+                        <div class="menu-item-1 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-2 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-3 menu-item">
+                            <p><a href="register.html">Register</a></p>
+                        </div>
+                    </div>
+                    <div class="menu-tab">
+                        <div id="one"></div>
+                        <div id="two"></div>
+                        <div id="three"></div>
+                    </div>
+
+                    <div class="menu-hide">
+                        <nav>
+                            <ul>
+                                <!-- <li><a href="#">space</a></li>
+                            <li><a href="#1">Home</a></li>
+                            <li><a href="#about">Events</a></li>
+                            <li><a href="register.html">Register</a></li> -->
+                                <!-- <li><a href="#4">Our Team</a></li> -->
+                            </ul>
+                        </nav>
+                    </div>
+                </nav>
+
+                <main>
+                    <div class="row" style="align-content:center;">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <a href="index1.html">
+                                <div class="thumbnail">
+                                    <img src="assests/zaeden1.jpg">
+                                    <div class="carousel-caption">
+                                        <h1>Artist Spotlight</h1>
+                                    </div>
+
+                                </div>
                         </div>
                         </a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="thumbnail" >
-                            <img src="assests/zaeden1.jpg">
-                            <div class="carousel-caption">
-                                <h1>Artist Spotlight</h1>
-                              </div>
-                           
-                        </div>
-                    </div>
-                    </div>
-                
-            </main>
-            <div class="number">
-                03
-            </div>
-            <footer>
-                <p style="color:white;">
-                    <span class="black"> POWERED BY</span>: <span class="narrow"> perplexed.tech</span>
-                </p>
-            </footer>
-        </div>
-    </section>
-    <section class="about scroller" id="navigator">
-        <div class="container">
-            <nav>
-                <div class="menu menu-left">
-                    <div class="menu-item-1 menu-item">
-                        <p><a href="#about"><a href="#about">Events</a></p>
-                    </div>
-                    <div class="menu-item-2 menu-item">
-                        <p> </p>
-                    </div>
-                    <div class="menu-item-3 menu-item">
-                        <p> </p>
-                    </div>
-                </div>
-                <div class="logo">
-                    <p>
-                        <span class="black">Uphoria</span>
-                        <span class="narrow">2k19</span>
-                    </p>
-                </div>
-                <div class="menu menu-right">
-                    <div class="menu-item-1 menu-item">
-                        <p> </p>
-                    </div>
-                    <div class="menu-item-2 menu-item">
-                        <p> </p>
-                    </div>
-                    <div class="menu-item-3 menu-item">
-                        <p><a href="register.html">Register</a></p>
-                    </div>
-                </div>
-                <div class="menu-tab">
-                    <div id="one"></div>
-                    <div id="two"></div>
-                    <div id="three"></div>
-                </div>
-                <div class="menu-hide">
-                    <nav>
-                        <ul>
-                            <!-- <li><a href="#">space</a></li>
-                                <li><a href="#1">Home</a></li>
-                                <li><a href="#about">Events</a></li>
-                                <li><a href="register.html">Register</a></li> -->
-                            <!-- <li><a href="#4">Our Team</a></li> -->
-                        </ul>
-                    </nav>
-                </div>
-            </nav>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <a href="gallery.html">
+                                <div class="thumbnail">
+                                    <img src="images/olly.jpg">
 
-            <main>
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div class="thumbnail" style="background-color:black; border-color:black;">
-                        <img src="assests/contact.png" style="  height:40vh; filter:invert(100%);">
-                        <div class="capt">
-                            <div class="button" onclick="window.location='./contact/index.html'">
-                                    <a href="./contact/index.html"><p>Contact Us</p></a>
+
+
+                                    <div class="carousel-caption">
+                                        <h1>Gallery</h1>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="thumbnail">
+                                <img src="assests/zaeden1.jpg">
+                                <div class="carousel-caption">
+                                    <h1>Artist Spotlight</h1>
+                                </div>
+
                             </div>
-                     
                         </div>
                     </div>
+
+                </main>
+                <div class="number">
+                    03
                 </div>
-            </main>
-            <div class="number">
-                04
-            </div>
-            <footer>
-                <p style="color:white;">
-                    <span class="black"> POWERED BY</span>: <span class="narrow"> perplexed.tech</span>
-                </p>
-            </footer>
-        </div>
-    </section>
-    <section class="about scroller" id="navigator">
-        <div class="container">
-            <nav>
-                <div class="menu menu-left">
-                    <div class="menu-item-1 menu-item">
-                        <p><a href="#about"><a href="#about">Events</a></p>
-                    </div>
-                    <div class="menu-item-2 menu-item">
-                        <p> </p>
-                    </div>
-                    <div class="menu-item-3 menu-item">
-                        <p> </p>
-                    </div>
-                </div>
-                <div class="logo">
-                    <p>
-                        <span class="black">Uphoria</span>
-                        <span class="narrow">2k19</span>
+                <footer>
+                    <p style="color:white;">
+                        <span class="black"> POWERED BY</span>: <span class="narrow"> perplexed.tech</span>
                     </p>
-                </div>
-                <div class="menu menu-right">
-                    <div class="menu-item-1 menu-item">
-                        <p> </p>
+                </footer>
+            </div>
+        </section>
+        <section class="section about scroller" id="navigator">
+            <div class="container">
+                <nav>
+                    <div class="menu menu-left">
+                        <div class="menu-item-1 menu-item">
+                            <p><a href="#about"><a href="#about">Events</a></p>
+                        </div>
+                        <div class="menu-item-2 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-3 menu-item">
+                            <p> </p>
+                        </div>
                     </div>
-                    <div class="menu-item-2 menu-item">
-                        <p> </p>
+                    <div class="logo">
+                        <p>
+                            <span class="black">Uphoria</span>
+                            <span class="narrow">2k19</span>
+                        </p>
                     </div>
-                    <div class="menu-item-3 menu-item">
-                        <p><a href="register.html">Register</a></p>
+                    <div class="menu menu-right">
+                        <div class="menu-item-1 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-2 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-3 menu-item">
+                            <p><a href="register.html">Register</a></p>
+                        </div>
                     </div>
-                </div>
-                <div class="menu-tab">
-                    <div id="one"></div>
-                    <div id="two"></div>
-                    <div id="three"></div>
-                </div>
-                <div class="menu-hide">
-                    <nav>
-                        <ul>
-                            <!-- <li><a href="#">space</a></li>
+                    <div class="menu-tab">
+                        <div id="one"></div>
+                        <div id="two"></div>
+                        <div id="three"></div>
+                    </div>
+                    <div class="menu-hide">
+                        <nav>
+                            <ul>
+                                <!-- <li><a href="#">space</a></li>
                                 <li><a href="#1">Home</a></li>
                                 <li><a href="#about">Events</a></li>
                                 <li><a href="register.html">Register</a></li> -->
-                            <!-- <li><a href="#4">Our Team</a></li> -->
-                        </ul>
-                    </nav>
-                </div>
-            </nav>
+                                <!-- <li><a href="#4">Our Team</a></li> -->
+                            </ul>
+                        </nav>
+                    </div>
+                </nav>
 
-            <main>
-                <div class="heading">
-                    <p class="last">
-                        <span class="black1">UPHORIA</span>
-                        <span class="narrow1">2K19</span>
-                    </p>
-                    <p class="power">
-                        <span class="black2">POWERED BY: </span>
-                        <span class="narrow2">perplexed.tech </span>
-                    </p>
+                <main>
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="thumbnail" style="background-color:black; border-color:black;">
+                            <img src="assests/contact.png" style="  height:40vh; filter:invert(100%);">
+                            <div class="capt">
+                                <div class="button" onclick="window.location='./contact/index.html'">
+                                    <a href="./contact/index.html">
+                                        <p>Contact Us</p>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <div class="number">
+                    04
                 </div>
-            </main>
-            <div class="number">
-                05
+                <footer>
+                    <p style="color:white;">
+                        <span class="black"> POWERED BY</span>: <span class="narrow"> perplexed.tech</span>
+                    </p>
+                </footer>
             </div>
-            <footer>
-                <p style="color:white;">
-                    <span class="black"> POWERED BY</span>: <span class="narrow"> perplexed.tech</span>
-                </p>
-            </footer>
-        </div>
-    </section>
+        </section>
+        <section class="section about scroller" id="navigator">
+            <div class="container">
+                <nav>
+                    <div class="menu menu-left">
+                        <div class="menu-item-1 menu-item">
+                            <p><a href="#about"><a href="#about">Events</a></p>
+                        </div>
+                        <div class="menu-item-2 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-3 menu-item">
+                            <p> </p>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <p>
+                            <span class="black">Uphoria</span>
+                            <span class="narrow">2k19</span>
+                        </p>
+                    </div>
+                    <div class="menu menu-right">
+                        <div class="menu-item-1 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-2 menu-item">
+                            <p> </p>
+                        </div>
+                        <div class="menu-item-3 menu-item">
+                            <p><a href="register.html">Register</a></p>
+                        </div>
+                    </div>
+                    <div class="menu-tab">
+                        <div id="one"></div>
+                        <div id="two"></div>
+                        <div id="three"></div>
+                    </div>
+                    <div class="menu-hide">
+                        <nav>
+                            <ul>
+                                <!-- <li><a href="#">space</a></li>
+                                <li><a href="#1">Home</a></li>
+                                <li><a href="#about">Events</a></li>
+                                <li><a href="register.html">Register</a></li> -->
+                                <!-- <li><a href="#4">Our Team</a></li> -->
+                            </ul>
+                        </nav>
+                    </div>
+                </nav>
+
+                <main>
+                    <div class="heading">
+                        <p class="last">
+                            <span class="black1">UPHORIA</span>
+                            <span class="narrow1">2K19</span>
+                        </p>
+                        <p class="power">
+                            <span class="black2">POWERED BY: </span>
+                            <span class="narrow2">perplexed.tech </span>
+                        </p>
+                    </div>
+                </main>
+                <div class="number">
+                    05
+                </div>
+                <footer>
+                    <p style="color:white;">
+                        <span class="black"> POWERED BY</span>: <span class="narrow"> perplexed.tech</span>
+                    </p>
+                </footer>
+            </div>
+        </section>
+    </div>
 
 
-
+    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
     <script src="base/js/index.js"></script>
-    <script src="https://cdnjs.com/libraries/fullPage.js"></script>
-
+    <!-- <script src="https://cdnjs.com/libraries/fullPage.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.extensions.min.js"
+        integrity="sha256-hpQQQJNPOw2uF6eylQqhnNkjQWl8F7FVGx3WyYkdqKI=" crossorigin="anonymous"></script>
+    <script>
+        new fullpage('#fullpage', {
+            autoScrolling: true,
+            scrollHorizontally: true
+        });
+    </script>
     <!-- <script src="base/js/jquery-3.2.1.js"></script>
         <script src="base/js/jquery.scrollify.js"></script> -->
     <!-- <script>
