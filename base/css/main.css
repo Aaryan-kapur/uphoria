@@ -301,7 +301,7 @@ body section.top .container .blob {
 /*end of menu-hide*/
 .menu-hide.show {
   left: 0px;
-  background: linear-gradient(205deg, rgba(153, 0, 255,0), rgb(98, 0, 255));
+  background: linear-gradient(205deg, rgba(153, 0, 255, 0), rgb(98, 0, 255));
   transition: all .6s ease-in-out;
   visibility: visible;
 }
