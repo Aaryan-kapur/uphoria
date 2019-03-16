@@ -214,8 +214,8 @@ z-index: 10;
           mask: url(../img/urban-sprite.png);
   -webkit-mask-size: 3000% 100%;
           mask-size: 3000% 100%;
-  -webkit-animation: mask-play 1.4s steps(29) forwards;
-          animation: mask-play 1.4s steps(29) forwards;
+  -webkit-animation: mask-play 1s steps(29) forwards;
+          animation: mask-play 1s steps(29) forwards;
 }
 
 .index .page-view .project:nth-child(even).hide {
@@ -223,8 +223,8 @@ z-index: 10;
   mask: url(../img/urban-sprite.png);
 -webkit-mask-size: 3000% 100%;
   mask-size: 3000% 100%;
--webkit-animation: mask-play 1.4s steps(29) forwards;
-  animation: mask-play 1.4s steps(29) forwards;
+-webkit-animation: mask-play 1s steps(29) forwards;
+  animation: mask-play 1s steps(29) forwards;
 }
 
 /* Fallback */
@@ -236,9 +236,9 @@ z-index: 10;
           mask: none !important;
 }
 
-/* @media (max-width:800px){ */
+@media (max-width:800px){ 
 .page-view .project .text h1{
-  /* font-size:1rem; */
-  /* display: none; */
+  font-size:1rem;
+  display: none;
 }
-/* } */
+}
