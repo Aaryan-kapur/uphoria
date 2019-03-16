@@ -83,6 +83,7 @@ main .capt .button p {
 }
 
 @media only screen and (max-width: 600px) {
+  
   section.new .container main {
     position: relative;
     margin-top: 10vh;
@@ -109,10 +110,13 @@ main .capt .button p {
   }
 }
 @media only screen and (max-width: 800px) {
+  section.new .container main .row {
+    margin-top:0%;
+  }
   section.new .container main .row .thumbnail{
     background-color:black;
     border-color:black; 
-    height: 29%; 
+    height: 22%; 
     width:100%;
   }
   section.new .comntainer main .row .thumbnail h1{
@@ -129,12 +133,15 @@ main .capt .button p {
    align-content: center;
   }
 }
-@media only screen and (min-width: 2600px) {
-  
-  section.new main .thumbnail {
+@media only screen and (max-width: 2600px) {
+  section.new main .row {
+    margin-top:20%;
+
+  }
+  section.new main .row .thumbnail {
     height:40%;
-    background-color:rgb(201, 64, 64);
-    border-color:rgb(224, 1, 1); 
+    background-color:rgb(0, 0, 0);
+    border-color:rgb(0, 0, 0); 
   }
   section.new main .thumbnail img{
     height: 32cover;
