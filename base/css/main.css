@@ -7,9 +7,74 @@
 .black {
   font-weight: 500;
 }
+.black1{
+  font-weight: 500;
+  font-size:15vh;
+}
+.narrow1{
+  font-weight: 100;
+  font-size:15vh;
+}
+.black2{
+  font-weight: 500;
+  font-size:3vh;
+}
+.narrow2{
+  font-weight: 100;
+  font-size:5vh;
+}
 .narrow {
   font-weight: 100;
 }
+@media only screen and (max-width: 600px) {
+  .black1{
+    font-size:5vh;
+    font-weight: 500;
+  }
+  .narrow1{
+    font-size:5vh;
+    font-weight: 100;
+  }
+  .black2{
+    font-size:1vh;
+  }
+  .narrow2{
+  font-size:2vh;
+}
+}
+@media only screen and (max-width: 800px) {
+  .black1{
+    font-size:5vh;
+    font-weight: 500;
+  }
+  .narrow1{
+    font-size:5vh;
+    font-weight: 100;
+  }
+  .black2{
+    font-size:1vh;
+  }
+  .narrow2{
+  font-size:2vh;
+}
+}
+@media only screen and (max-width: 1500px) {
+  .black1{
+    font-size:5vh;
+    font-weight: 500;
+  }
+  .narrow1{
+    font-size:5vh;
+    font-weight: 100;
+  }
+  .black2{
+    font-size:1vh;
+  }
+  .narrow2{
+  font-size:2vh;
+}
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
