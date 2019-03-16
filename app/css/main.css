@@ -6,7 +6,7 @@ section.about .container main {
 }
 @media only screen and (max-width: 800px) {
   section.about .container main {
-    margin-top: 12.5vh;
+    margin-top: 10vh;
     height: 71.6vh;
   }
 }
