@@ -206,23 +206,3 @@ section.about .container main .hiddenjs aside.right .event p {
   transform: translateY(-50%);
   text-align: center;
 }
-@media only screen and (max-width: 600px) {
-  section.about main .thumbnail{
-    height:25%;
-  }
-}
-@media only screen and (max-width: 1300px) {
-  section.about  main{
-   align-content: center;
-  }
-}@media only screen and (max-width: 2600px) {
-  section.about  main row{
-   margin-top:50vh;
-  }
-  section.about main .thumbnail {
-    height:60%;
-  }
-  section.about main .thumbnail img{
-    height: 32cover;
-  }
-}

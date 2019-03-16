@@ -1,4 +1,54 @@
-.black{
-    font-weight:300;
+
+body{
+    background-color:black; 
+    font-family:montserrat; 
+    padding-top:2%;
+}
+.button1 .top{
+    cursor: pointer;
+  display: inline-block;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  position:relative;
+  left:50%;
+  transform: translateX(-50%);
+}
+.heading .up {
+    font-size:100px;  
+    position: relative;
+     left:19%; transform: 
+     translateX(-19%);
+     color:white; 
+     font-weight:500;
     margin-top: 21%;
+}
+.heading .year{
+    font-size:100px;  
+    position: relative;
+     left:19%; transform: 
+     translateX(-19%);
+     color:white; 
+     font-weight:50;
+    margin-top: 21%;
+}
+.heading .pow{
+    font-size:20px;  
+    position: relative; 
+    left:37%; 
+    transform: translateX(-37%);
+     font-weight:500;
+}
+.heading .perp{
+    font-size:20px; 
+    font-weight:100;
+      position: relative; 
+      left:38%; 
+      transform: translateX(-39%);
+      color:white;
+}
+h1{
+    color:white;
+     text-align: center;
+
 }

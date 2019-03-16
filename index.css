@@ -80,3 +80,83 @@ main .capt .button {
 main .capt .button p {
   margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  section.new .container main {
+    position: relative;
+    margin-top: 10vh;
+    height: 75.1vh;
+    padding: 4vh 0;
+  }
+  section.new .container .logo{
+    font-size:4vh;
+    margin-top:vh;
+  }
+  section.new .container main .row .thumbnail{
+    background-color:black;
+    border-color:black; 
+    height: 30%; 
+    width:100%;
+  }
+  section.new .container main .row .thumbnail h1{
+    font-size: 5vh;
+    
+  }
+  section.new .container main .row .thumbnail img{
+    height:100%;
+    width:60%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  section.new .container main .row .thumbnail{
+    background-color:black;
+    border-color:black; 
+    height: 29%; 
+    width:100%;
+  }
+  section.new .comntainer main .row .thumbnail h1{
+    font-size: 5vh;
+    
+  }
+  section.new main .row .thumbnail img{
+    height:100%;
+    width:60%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  section.new  main{
+   align-content: center;
+  }
+}
+@media only screen and (min-width: 2600px) {
+  
+  section.new main .thumbnail {
+    height:40%;
+    background-color:rgb(201, 64, 64);
+    border-color:rgb(224, 1, 1); 
+  }
+  section.new main .thumbnail img{
+    height: 32cover;
+  }
+}
+@media only screen and (max-width: 800px) {
+  section.new .container main .hiddenjs aside.right .wrapper {
+    display: flex;
+  }
+}
+section.new .container main .hiddenjs aside.right .event {
+  background-color: black;
+  margin-right: 10px;
+  border: 1px solid white;
+  height: 4vh;
+  cursor: pointer;
+  font-size: 90%;
+  padding: 5px;
+  margin-bottom: 2vh;
+}
+section.new .container main .hiddenjs aside.right .event p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
