@@ -172,7 +172,12 @@ body section.top .container .quote {
   transform: translateY(calc(-50%));
 }
 body section.top .container .quote p.top {
-  font-weight: 600;
+  font-weight: 400;
+}
+body section.top .container .quote p.outer{
+  margin-top:6%;
+  font-weight: 500;
+  font-size:3vh;
 }
 body section.top .container .blob {
   margin: 0 0;

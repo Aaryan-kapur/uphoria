@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700');
+@import 'viewports';
+  
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: #000;
+  padding:10%;
+}
+
+
+
+main .heading p.last {
+    text-align: center;
+    font-weight: 500;
+
+    color: white;
+  }
+  main .row{
+    margin-left:50%;
+    transform: translateX(-50%);
+  }
+  main .heading p.last .black1{
+    font-size: 5vh;
+    font-weight:500;
+    
+  }
+  main .heading p.last .narrow1{
+    font-size: 5vh;
+    font-weight:100;
+  }
+  main .heading p.power {
+  text-align: center;
+}
+
+main .heading p.power .black2{
+    font-weight: 500;
+    font-size:1vh;
+    
+  }
+  main .heading p.power .narrow2{
+    font-weight: 100;
+    font-size:2vh;
+  }
+  @media only screen and (max-width: 600px) {
+    main .heading p.last .black1{
+      font-size:2vh;
+      font-weight: 500;
+      
+    }
+    main .heading p.last .narrow1{
+      font-size:2vh;
+      font-weight: 100;
+    }
+    main .heading p.power .black2{
+      font-size:1vh;
+    }
+    main .heading p.power .narrow2{
+    font-size:2vh;
+  }
+  }
+  @media only screen and (max-width: 800px) {
+    main .heading p.last .black1{
+      font-size:5vh;
+      font-weight: 500;
+    }
+    main .heading p.last .narrow1{
+      font-size:5vh;
+      font-weight: 100;
+    }
+    main .heading p.power .black2{
+      font-size:1vh;
+    }
+    main .heading p.power .narrow2{
+    font-size:2vh;
+  }
+  }
