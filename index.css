@@ -168,7 +168,7 @@ main .capt .button p {
    section.new  main div.row div.thumbnail{
      background-color:black;
      border-color:black; 
-     height: 40%; 
+     height: 50%; 
      width:100%;
      margin-top:50%;
      transform: translateY(-50%);
