@@ -168,11 +168,41 @@ section.about .container main .squares{
     width:50vh;
   }
 }
-@media only screen and (max-width: 1300px)  and (min-width: 1000px){
+@media only screen and (max-width: 1300px)  and (min-width: 1200px){
   section.new  main{
     align-content: center;
-    top:70%;
-    transform: translateY(70%);
+    top:55%;
+    transform: translateY(50%);
+     }
+section.about .container main .squares{
+ top:50%;
+ transform: translateY(-50%);
+}
+   section.new  main div.row div.thumbnail{
+     background-color:black;
+     border-color:black; 
+     height: 27%; 
+     width:100%;
+     
+   }
+   section.new main .row .thumbnail h1{
+     font-size: 300%;
+     
+   }
+  .heading .black{
+    font-size:100%;
+    font-weight: 700;
+  }
+  
+  section.new main .thumbnail img{
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1200px)  and (min-width: 1000px){
+  section.new  main{
+    align-content: center;
+    top:55%;
+    transform: translateY(50%);
      }
 section.about .container main .squares{
  top:50%;
@@ -190,7 +220,8 @@ section.about .container main .squares{
      
    }
   .heading .black{
-    font-size:12vh;
+    font-size:100%;
+    font-weight: 700;
   }
   
   section.new main .thumbnail img{
