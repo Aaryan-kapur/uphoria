@@ -1,4 +1,5 @@
 @import 'viewports';
+
 a {
   text-decoration: none;
   color: white;
@@ -13,6 +14,7 @@ a {
 }
 body {
   background-color: black;
+
 }
 
 .quote .menu-item-3 p {
@@ -109,29 +111,30 @@ main .capt .button p {
   section.new .container main .row .thumbnail h1{
     font-size: 3vh;
     
+    
   }
   section.new .container main .row .thumbnail img{
     height:100%;
-    width:80%;
+    width:30vh;
   }
 }
 @media only screen and (max-width: 800px)  and (min-width: 600px){
   section.new .container main .row {
-    margin-top:20vh;
+    margin-top:10vh;
   }
   section.new .container main .row .thumbnail{
     background-color:black;
     border-color:black; 
-    height: 20%; 
+    height: 25%; 
     width:100%;
   }
   section.new .comntainer main .row .thumbnail h1{
-    font-size: 5vh;
+    font-size: 80%;
     
   }
   section.new main .row .thumbnail img{
     height:100%;
-    width:70%;
+    width:45vh;
   }
 }
 @media only screen and (max-width: 1000px)  and (min-width: 800px) {
@@ -141,51 +144,63 @@ main .capt .button p {
   .heading .black {
     font-size:9vh;
   }
+
+section.about .container main .squares{
+  top:50%;
+  transform: translateY(-50%);
+ }
  
   section.new .container main .row .thumbnail{
     background-color:black;
     border-color:black; 
     height: 22%; 
-    width:100%;
+    width:80%;
+    left: 20%;
+    transform: translateX(13%);
   }
   section.new .comntainer main .row .thumbnail h1{
-    font-size: 5vh;
+    font-size: 70%;
+    
     
   }
   section.new main .row .thumbnail img{
-    height:70%;
-    width:50%;
+    height:100%;
+    width:50vh;
   }
 }
 @media only screen and (max-width: 1300px)  and (min-width: 1000px){
   section.new  main{
     align-content: center;
-    margin-top:20%;
+    top:70%;
+    transform: translateY(70%);
      }
-.heading .black{
-  font-size:15vh;
+section.about .container main .squares{
+ top:50%;
+ transform: translateY(-50%);
 }
    section.new  main div.row div.thumbnail{
      background-color:black;
      border-color:black; 
-     height: 50%; 
+     height: 20%; 
      width:100%;
-     margin-top:50%;
-     transform: translateY(-50%);
-   }
-   section.new main .row .thumbnail h1{
-     font-size: 190%;
      
    }
-   section.new  main .row .thumbnail img{
-     height:50%;
-     width:90%;
+   section.new main .row .thumbnail h1{
+     font-size: 300%;
+     
    }
+  .heading .black{
+    font-size:12vh;
+  }
+  
+  section.new main .thumbnail img{
+    height: 100%;
+  }
 }
 @media only screen and (max-width: 2600px)  and (min-width: 1300px){
   section.new main .row {
-    margin-top:35%;
-     transform: translateY(-50%);
+    top:55%;
+     transform: translateY(50%);
 
   }
   .heading .black{
