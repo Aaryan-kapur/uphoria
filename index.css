@@ -117,10 +117,16 @@ main .capt .button p {
     height:100%;
     width:30vh;
   }
-   p.new_hide .black{
-  color:black
-}
-  p.new_hide .narrow{
+   section.new .container nav .menu-left .menu-item-1 a{
+    color:black;
+  }
+  section.new .container nav .menu-right .menu-item-3 a{
+    color:black;
+  }
+  section.about footer .new_hide .black{
+    color:black;
+  }
+  section.about footer .new_hide .narrow{
     color:black;
   }
 }
