@@ -117,6 +117,12 @@ main .capt .button p {
     height:100%;
     width:30vh;
   }
+   p.new_hide .black{
+  color:black
+}
+  p.new_hide .narrow{
+    color:black;
+  }
 }
 @media only screen and (max-width: 800px)  and (min-width: 600px){
   section.new .container main .row {
