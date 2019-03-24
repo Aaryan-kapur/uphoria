@@ -136,7 +136,10 @@ main .capt .button p {
     height:100%;
     width:45vh;
   }
-   .new_hide{
+   p.new_hide .black{
+  color:black
+}
+  p.new_hide .narrow{
     color:black;
   }
 }
