@@ -10,8 +10,8 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="base/css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <link rel="stylesheet" href="index.css">
 
@@ -50,11 +50,11 @@
                             <p><a href="register.html">Register</a></p>
                         </div>
                     </div>
-                    <div class="menu-tab">
+                    <!-- <div class="menu-tab">
                         <div id="one"></div>
                         <div id="two"></div>
                         <div id="three"></div>
-                    </div>
+                    </div> -->
                     <div class="menu-hide">
                         <nav>
                             <ul>
@@ -78,8 +78,7 @@
                 <div class="quote">
                     <p class="outer">Annual fest of Bennett University</p>
                     <p class="top">
-                        “The cosmos is within us. We are made of star-stuff. We are a way for the universe to know
-                        itself.”
+                        “If it can be destroyed by the truth, it deserves to be destroyed by the truth.”
                     </p>
                     <p class="bottom">-Carl Sagan</p>
                     <p></p>
@@ -132,11 +131,11 @@
                             <p><a href="register.html">Register</a></p>
                         </div>
                     </div>
-                    <div class="menu-tab">
+                    <!-- <div class="menu-tab">
                         <div id="one"></div>
                         <div id="two"></div>
                         <div id="three"></div>
-                    </div>
+                    </div> -->
                     <div class="menu-hide">
                         <nav>
                             <ul>
@@ -268,11 +267,11 @@
                             <p><a href="register.html">Register</a></p>
                         </div>
                     </div>
-                    <div class="menu-tab">
+                    <!-- <div class="menu-tab">
                         <div id="one"></div>
                         <div id="two"></div>
                         <div id="three"></div>
-                    </div>
+                    </div> -->
 
                     <div class="menu-hide">
                         <nav>
@@ -367,11 +366,11 @@
                             <p><a href="register.html">Register</a></p>
                         </div>
                     </div>
-                    <div class="menu-tab">
+                    <!-- <div class="menu-tab">
                         <div id="one"></div>
                         <div id="two"></div>
                         <div id="three"></div>
-                    </div>
+                    </div> -->
                     <div class="menu-hide">
                         <nav>
                             <ul>
@@ -441,11 +440,11 @@
                             <p><a href="register.html">Register</a></p>
                         </div>
                     </div>
-                    <div class="menu-tab">
+                    <!-- <div class="menu-tab">
                         <div id="one"></div>
                         <div id="two"></div>
                         <div id="three"></div>
-                    </div>
+                    </div> -->
                     <div class="menu-hide">
                         <nav>
                             <ul>
@@ -484,7 +483,8 @@
     </div>
 
 
-    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
     <script src="base/js/index.js"></script>
     <!-- <script src="https://cdnjs.com/libraries/fullPage.js"></script> -->
@@ -506,7 +506,27 @@
             });
         });   
     </script> -->
+    <script>
+        $(function () {
 
+            $('.progressive-image').each(function () {
+
+                var image = new Image();
+                var previewImage = $(this).find('.loadingImage');
+                var newImage = $(this).find('.overlay');
+
+                image.onload = function () {
+                    newImage.css('background-image', 'url(' + image.src + ')');
+                    newImage.css('opacity', '1');
+                    console.log('complete');
+                };
+
+                image.src = previewImage.data('image');
+
+            });
+
+        });
+    </script>
 </body>
 
 </html>
