@@ -281,4 +281,6 @@ section.about .container main .squares{
   }
 }
 
-
+* footer{
+  visibility:hidden;
+}
